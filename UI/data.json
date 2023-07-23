@@ -1,0 +1,122 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 1,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 0,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1689691812890,
+  "success": false,
+  "testResults": [
+    {
+      "displayName": "",
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module '../../repo/loginPageData' from 'demo.test.js'\n\n    \u001b[0m \u001b[90m  5 | \u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  6 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mActionStack\u001b[39m from \u001b[32m\"../../helpers/ActionStack\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  7 | \u001b[39m\u001b[36mimport\u001b[39m \u001b[33mLoginData\u001b[39m from \u001b[32m\"../../repo/loginPageData\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m  8 | \u001b[39m\u001b[36mimport\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m  9 | \u001b[39m    initializePage\u001b[0m\n    \u001b[0m \u001b[90m 10 | \u001b[39m} from \u001b[32m\"../util\"\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\n      \u001b[2mat Resolver.resolveModule (C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\u001b[22m../../../../../../../../Desktop/ZF_Presentation/Hey/UI/node_modules/@jest/core/node_modules/jest-resolve/build/index.js\u001b[2m:230:17)\u001b[22m\n      \u001b[2mat Object.<anonymous> (C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\u001b[22m../../../../../../../../Desktop/ZF_Presentation/Hey/UI/test/e2e/home/FirstTest/demo.test.js\u001b[2m:7:1)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": {
+        "code": "MODULE_NOT_FOUND"
+      },
+      "testFilePath": "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\test\\e2e\\home\\FirstTest\\demo.test.js",
+      "testResults": []
+    }
+  ],
+  "wasInterrupted": false,
+  "config": {
+    "bail": 0,
+    "changedFilesWithAncestor": false,
+    "collectCoverage": false,
+    "collectCoverageFrom": null,
+    "coverageDirectory": "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\coverage",
+    "coverageReporters": [
+      "json",
+      "text",
+      "lcov",
+      "clover"
+    ],
+    "coverageThreshold": null,
+    "detectLeaks": false,
+    "detectOpenHandles": false,
+    "errorOnDeprecated": false,
+    "expand": false,
+    "filter": null,
+    "globalSetup": "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\test\\e2e\\setup.js",
+    "globalTeardown": "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\test\\e2e\\teardown.js",
+    "json": false,
+    "listTests": false,
+    "maxConcurrency": 5,
+    "maxWorkers": 1,
+    "noStackTrace": false,
+    "nonFlagArgs": [],
+    "notify": false,
+    "notifyMode": "failure-change",
+    "passWithNoTests": false,
+    "projects": null,
+    "reporters": [
+      [
+        "default",
+        {}
+      ],
+      [
+        "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\node_modules\\jest-html-reporters\\index.js",
+        {}
+      ],
+      [
+        "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\node_modules\\jest-stare\\lib\\index.js",
+        {}
+      ]
+    ],
+    "rootDir": "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI",
+    "runTestsByPath": false,
+    "skipFilter": false,
+    "testFailureExitCode": 1,
+    "testPathPattern": "",
+    "testResultsProcessor": null,
+    "testSequencer": "C:\\Users\\Ashok Reddy M\\Dropbox\\My PC (DESKTOP-8DBPP2F)\\Desktop\\ZF_Presentation\\Hey\\UI\\node_modules\\@jest\\test-sequencer\\build\\index.js",
+    "updateSnapshot": "new",
+    "useStderr": false,
+    "verbose": true,
+    "watch": false,
+    "watchman": true
+  },
+  "endTime": 1689691816284,
+  "_reporterOptions": {},
+  "attachInfos": {}
+}

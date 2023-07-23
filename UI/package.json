@@ -1,0 +1,71 @@
+{
+  "name": "zftests",
+  "version": "1.0.0",
+  "description": "ZF Automation Tests",
+  "private": true,
+  "scripts": {
+    "test:smoke": "cross-env NODE_ENV=stage2 SUITE=smoke jest --runInBand --config ./jest.config.smoke.js"
+  },
+  "dependencies": {
+    "compare-pdf": "^1.1.6",
+    "date-fns": "^2.29.3",
+    "exceljs": "^4.3.0",
+    "fast-csv": "^4.3.6",
+    "googleapis": "^37.2.0",
+    "moment-timezone": "^0.5.34",
+    "node-2fa": "^2.0.3",
+    "node-cmd": "^3.0.0",
+    "stripe": "^8.202.0",
+    "to-fast-properties": "^4.0.0",
+    "xhr2": "^0.2.1",
+    "node-html-parser": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.4",
+    "@sendgrid/mail": "^6.4.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.4.2",
+    "cross-env": "^6.0.3",
+    "expect-puppeteer": "^4.4.0",
+    "googleapis": "^37.2.0",
+    "imap-simple": "^4.3.0",
+    "jest": "^26.1.0",
+    "jest-cli": "^24.8.0",
+    "jest-each": "^23.6.0",
+    "jest-environment-enzyme": "^6.0.3",
+    "jest-environment-node": "^24.8.0",
+    "jest-enzyme": "^6.0.3",
+    "jest-html-reporter": "^2.4.2",
+    "jest-html-reporters": "2.0.2",
+    "jest-puppeteer": "^3.5.2",
+    "jest-stare": "^2.2.2",
+    "jquery": "^3.3.1",
+    "jquery-datetimepicker": "^2.5.20",
+    "lodash": "^4.17.11",
+    "log4js": "^4.0.2",
+    "mailparser": "^2.7.1",
+    "moment": "^2.19.1",
+    "nodemailer": "^5.1.1",
+    "puppeteer": "^5.2.1",
+    "underscore": "^1.9.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "jest-stare": {
+    "resultDir": ".",
+    "resultJson": "data.json",
+    "resultHtml": "stareresult.html",
+    "log": "",
+    "jestStareConfigJson": "",
+    "coverageLink": ""
+  }
+}
